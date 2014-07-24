@@ -18,21 +18,21 @@
 \usepackage{CJKutf8}
 
 % 调整页面出血
-\usepackage[scale=0.85]{geometry}
+\usepackage[scale=0.9]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}           % 如果你希望改变日期栏的宽度
 
 % 个人信息
 \name{}{李锦武}
 %\title{简历题目 (可选项)}                     % 可选项、如不需要可删除本行
-%\address{街道及门牌号}{邮编及城市}            % 可选项、如不需要可删除本行
+\address{南山区南头义学街8号502}{深圳, 518000}            % 可选项、如不需要可删除本行
 %\phone[mobile]{爱尔兰: +353~87~168~7844}              % 可选项、如不需要可删除本行
-\phone[mobile]{137~1033~6292(2013-09-14后启用)}              % 可选项、如不需要可删除本行
+\phone[mobile]{139~2348~0425}              % 可选项、如不需要可删除本行
 %\phone[fixed]{+2~(345)~678~901}               % 可选项、如不需要可删除本行
 %\phone[fax]{+3~(456)~789~012}                 % 可选项、如不需要可删除本行
 \email{ljw7630@hotmail.com}                    % 可选项、如不需要可删除本行
 \homepage{about.me/lijinwu}                  % 可选项、如不需要可删除本行
 %\extrainfo{附加信息 (可选项)}                 % 可选项、如不需要可删除本行
-%\photo[64pt][0.4pt]{picture}                  % ‘64pt’是图片必须压缩至的高度、‘0.4pt‘是图片边框的宽度 (如不需要可调节至0pt)、’picture‘ 是图片文件的名字;可选项、如不需要可删除本行
+\photo[43pt][0.03pt]{jinwuli}                  % ‘64pt’是图片必须压缩至的高度、‘0.4pt‘是图片边框的宽度 (如不需要可调节至0pt)、’picture‘ 是图片文件的名字;可选项、如不需要可删除本行
 %\quote{引言(可选项)}                          % 可选项、如不需要可删除本行
 
 \renewcommand*\namefont{\fontsize{30}{30}\selectfont}
@@ -58,20 +58,21 @@
 \maketitle
 \vspace*{-13mm}
 \section{教育背景}
-\cventry{2012-2013}{计算机科学, 理学硕士, 移动与普适计算方向}{圣三一学院}{爱尔兰都柏林}{}{}  % 第3到第6编码可留白
+\cventry{2012-2013}{计算机科学, 理学硕士, 移动与普适计算方向}{圣三一学院}{爱尔兰都柏林}{\textit{\textbf{Distinction}}}{}  % 第3到第6编码可留白
 
-\cventry{2010-2012}{计算机科学理学荣誉学士(联合培养)}{都柏林理工学院}{都柏林}{\textit{\textbf{一等学位(first class honour})}}{}
+\cventry{2010-2012}{计算机科学理学荣誉学士(联合培养)}{都柏林理工学院}{都柏林}{\textit{\textbf{一等学位(first class})}}{}
 
 \cventry{2008-2010}{软件工程(联合培养), 工学学士}{哈尔滨工业大学}{黑龙江哈尔滨}{\textit{\textbf{平均分92\%}}}{}
 
 \section{研究经验(研究生毕业论文)}
-\cvitem{题目}{\emph{Developing knowledge models of social media over World Wide Web} (使用网络爬虫、数据挖掘技术构建LinkedIn.com的知识图谱)}
+\cvitem{题目}{\emph{Developing Knowledge Models of Social Media: A Case Study on LinkedIn} (使用网络爬虫、数据挖掘技术构建LinkedIn.com的知识图谱)}
 \cvitem{导师}{\href{https://www.scss.tcd.ie/melike.sah/}{Dr. Melike Sah}, \href{https://www.scss.tcd.ie/vincent.wade/}{Prof. Vincent Wade}}
-\cvitem{说明}{\small 使用Python编写爬虫抓取爱尔兰LinkedIn.com上面的个人公开简介和公司简介,利用数据挖掘方法进行除错和聚类分析,并使用语义网(\href{http://en.wikipedia.org/wiki/Semantic_Web}{Semantic Web})技术将之转换成RDF数据库. 该数据库被部署在亚马逊EC2云服务器上, 支持HTTP SPARQL查询}
+\cvitem{说明}{\small 使用Python编写爬虫抓取爱尔兰LinkedIn.com上面的个人公开简介和公司简介,利用数据挖掘方法进行除错和数据分析,并使用语义网(\href{http://en.wikipedia.org/wiki/Semantic_Web}{Semantic Web})技术将之转换成RDF数据库. 该数据库被部署在亚马逊EC2云服务器上, 支持HTTP SPARQL查询. 最近论文被\href{http://www.ronpub.com/index.php/journals/ojsw}{OJSW journal}接受,将被刊登至下一期刊中.}
 
 \section{工作经验}
 %\subsection{专业}
-\cventry{2013.05-2013.09}{安卓和Rails开发工程师(全职实习)}{\href{http://popdeem.com/}{Popdeem}}{都柏林}{}{独立开发手机应用\href{https://play.google.com/store/apps/details?id=com.popdeem}{Popdeem}安卓版, 同时负责网站后台开发, 以及项目在AWS上的部署和配置, MYSQL数据库查询优化等
+\cventry{2014.03-今}{社交平台部Linux后台开发工程师}{\href{http://www.tencent.com/}{腾讯}}{深圳}{}{负责手机QQ空间的说说等新老功能的开发与维护. 涉及技术: 网络通信, Linux C++开发, Bash/Python脚本}
+\cventry{2013.05-2013.09}{安卓和Rails开发工程师(全职实习)}{\href{http://popdeem.com/}{Popdeem}}{都柏林}{}{独立开发手机应用Popdeem安卓版, 同时负责网站后台开发, 以及项目在AWS上的部署和配置, MYSQL数据库查询优化等
 %\newline{}%
 %工作内容:%
 %\begin{itemize}%
@@ -116,7 +117,7 @@
 %\cvitem{数据库}{Oracle, SQL Server, MySQL}
 %\cvitem{统计类工具}{Excel, Octave, R}
 \cvdoubleitem{数据库}{Oracle, SQL Server, MySQL}{统计类工具}{Excel, Octave, R}
-\cvitem{其他}{AWS EC2\&S3\&OpsWorks, Linux配置及命令行, 信息安全, 算法和问题求解}
+\cvitem{其他}{Linux配置及命令行, 信息安全, 算法和问题求解}
 %\cvdoubleitem{类别 3}{XXX, YYY, ZZZ}{类别 6}{XXX, YYY, ZZZ}
 
 \section{获奖情况}
@@ -130,9 +131,10 @@
 %\cvitem{编译原理}{\small 最近开始学习相关知识, 期望未来某一天通过自学可以实现自己发明的语言和IDE}
 
 \section{项目经验}
+\cvline{机器人智能教师助手}{使用乐高机器人搭载轻便投影仪,根据上课时间表寻找教室,并自动走到教室使用投影仪.涉及知识点:多种传感器的使用;二维码识别;寻路算法;概率论}
 \cvline{机器学习-\newline 收入预测}{使用了\href{http://archive.ics.uci.edu/ml/datasets/Census+Income}{UCI Census Income数据集}, 目标是根据人口普查信息预测一个人的月收入状况. 使用Python实现了朴素贝耶斯分类器和决策树分类器(并应用了顺序后向选择方法), 获得了84+\%的正确率 (官方网站最优结果为85.54\%)}
 \cvline{数据可视化}{一个用于抓取服务器日志文件, 并显示统计图表的C\#桌面应用程序. 使用第三方UI库\href{http://www.devexpress.com/}{DevExpress}来简化开发流程及增强用户体验, 使用ADO.NET获取数据, 并且利用cache缓存来提高响应速度.}
-\cvline{文件压缩}{一个基于哈夫曼树算法, 用C++实现的文件压缩工具(大二编程习作). \href{https://github.com/ljw7630/ForFun_FileCompressTool_HuffmanTree}{源代码}}
+%\cvline{文件压缩}{一个基于哈夫曼树算法, 用C++实现的文件压缩工具(大二编程习作). \href{https://github.com/ljw7630/ForFun_FileCompressTool_HuffmanTree}{源代码}}
 
 \renewcommand{\listitemsymbol}{-}             % 改变列表符号
 
